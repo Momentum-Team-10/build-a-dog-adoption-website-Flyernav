@@ -1,71 +1,88 @@
-*{
-    margin: 0;
-    box-sizing: border-box; 
-
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 h2 {
-    color: white;
+  color: white;
 }
 
 header {
-    background-color: #004175;
-    border-bottom: solid #89DEEF;
-    padding: 30px;
+  background-color: #004175;
+  border-bottom: solid #89deef;
+  padding: 30px;
 }
 
 .adopt {
-    margin: 30px;
-    text-align: left;
+  margin: 30px;
+  text-align: left;
 }
 
 .animal {
-    margin: 30px;
-    text-align: left;
+  margin: 30px;
+  text-align: left;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .container img {
-    height: 300px;
-    max-width: 300px;
+  height: 300px;
+  max-width: 300px;
 }
 
 .dog {
-    width: 350px;
-
-
+  width: 350px;
 }
 
 .dog ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 div li {
-    background-color: #89DEEF;
-    border-radius: 15px;
-    padding: 5px;
-    /* display: flex; */
-    margin-bottom: 5px;
-    margin-right: 5px;
-
+  background-color: #89deef;
+  border-radius: 15px;
+  padding: 5px;
+  /* display: flex; */
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
-footer {
-    display: flex;
-    text-align: justify;
-    align-items: stretch;
+.footer {
+  display: flex;
+  flex: 1 1 auto;
+  height: 350px;
 }
 
-.foot {
-    height: 300px;
-    width: 300px;
+.footer-text {
+  background-color: rgba(133, 111, 172, 0.45);
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding: 140px;
+}
 
+#donate {
+  background-image: url(/Users/treywilliams/momentum-assignments/build-a-dog-adoption-website-Flyernav/starter_files/images/donate.jpg);
+  background-size: cover;
+  width: 33.33%;
+}
+
+#volunteer {
+  background-image: url(/Users/treywilliams/momentum-assignments/build-a-dog-adoption-website-Flyernav/starter_files/images/volunteer.jpg);
+  background-size: cover;
+  width: 33.33%;
+}
+
+#location {
+  background-image: url(/Users/treywilliams/momentum-assignments/build-a-dog-adoption-website-Flyernav/starter_files/images/location.png);
+  background-size: cover;
+  width: 33.33%;
 }
